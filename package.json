@@ -1,0 +1,19 @@
+{
+  "name": "portableflicka-cli",
+  "version": "0.0.1",
+  "description": "Portable Flicka Command Line Interface",
+  "main": "index.js",
+  "scripts": {
+    "start": "./run.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luis Lobo Borobia",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "flickrapi": "^0.6.0",
+    "image-downloader": "^2.0.1",
+    "lodash": "^4.17.4",
+    "mkdirp": "^0.5.1"
+  }
+}
